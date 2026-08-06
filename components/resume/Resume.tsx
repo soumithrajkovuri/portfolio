@@ -18,8 +18,15 @@ export default function Resume() {
           </p>
 
           <div className="mt-8">
-            <Button href="/resume.pdf">
-              Download Resume
+            <Button>
+              <a
+            href="/resume/SoumithRaj_Kovuri.pdf"
+            download
+            className="..."
+             >
+            Download Resume
+            </a>
+              
             </Button>
           </div>
 
