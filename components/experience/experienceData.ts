@@ -29,7 +29,7 @@ import {
     {
       company: "Philips",
   
-      role: "Site Reliability Engineer",
+      role: "DevOps Engineer",
   
       period: "Sep 2024 — Present",
   
