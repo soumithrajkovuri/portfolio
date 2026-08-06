@@ -34,6 +34,8 @@ import {
       period: "Sep 2024 — Present",
   
       location: "Bangalore, India",
+
+      current: true,
   
       summary:
         "Designing, automating and operating secure, scalable cloud-native platforms on AWS. Responsible for Amazon EKS, Infrastructure as Code, GitOps, CI/CD, Monitoring, Observability and Platform Engineering.",
@@ -207,6 +209,8 @@ import {
       period: "Jul 2023 — May 2024",
   
       location: "Bangalore, India",
+
+      current: false,
   
       summary:
         "Supported cloud operations, Linux administration, production monitoring, infrastructure automation, vulnerability management and patching activities.",
