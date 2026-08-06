@@ -20,7 +20,7 @@ export default function Contact() {
           </p>
 
           <p>
-            💻 github.com/YOUR_GITHUB_USERNAME
+            💻 github.com/soumithrajkovuri
           </p>
 
           <p>
