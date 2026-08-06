@@ -21,9 +21,9 @@ const commands = [
   "",
   "> aws eks list-clusters",
   "",
-  "int-euw1-prs-cluster",
-  "qa-euw1-prs-cluster",
-  "prod-euw1-prs-cluster",
+  "AWS-EKS-cluster1",
+  "AWS-EKS-cluster2",
+  "AWS-EKS-cluster3",
   "",
   "────────────────────────────────────────────",
   "",
@@ -149,7 +149,7 @@ export default function HeroTerminal() {
   }, []);
 
   return (
-    <div className="w-full max-w-2xl rotate-1 overflow-hidden rounded-3xl border border-slate-700 bg-slate-900 shadow-2xl transition-all duration-500 hover:rotate-0 hover:scale-[1.02]">
+    <div className="w-full max-w-2xl rotate-0 overflow-hidden rounded-3xl border border-slate-700 bg-slate-900 shadow-2xl transition-all duration-500 hover:rotate-0 hover:scale-[1.02]">
 
       {/* Header */}
       <div className="flex items-center gap-3 border-b border-slate-700 bg-slate-800 px-6 py-4">
