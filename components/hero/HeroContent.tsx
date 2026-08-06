@@ -25,13 +25,13 @@ export default function HeroContent() {
 
       <h2 className="mt-6 text-2xl font-semibold text-cyan-400">
 
-       Site Reliability Engineer
+       DevOps Engineer
 
        </h2>
 
       <p className="mt-2 text-lg text-slate-300">
 
-      Cloud Platform Engineer • AWS • Kubernetes • DevOps
+      AWS | Kubernetes | Terraform | Amazon EKS | GitOps (ArgoCD) | CI/CD | Python | Observability
 
       </p>
 
