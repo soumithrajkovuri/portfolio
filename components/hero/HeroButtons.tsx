@@ -8,13 +8,6 @@ export default function HeroButtons() {
         Download Resume
       </Button>
 
-      <Button
-        href="#projects"
-        variant="secondary"
-      >
-        View Projects
-      </Button>
-
     </div>
   );
 }
