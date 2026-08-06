@@ -42,6 +42,8 @@ export default function ExperienceCard({ experience }: Props) {
   role={experience.role}
   period={experience.period}
   location={experience.location}
+  current={experience.current}
+  summary={experience.summary}
 />
 
         {/* KPI Cards */}
