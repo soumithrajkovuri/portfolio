@@ -19,8 +19,92 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+body{
+  background:linear-gradient(
+  180deg,
+  #020617 0%,
+  #081223 50%,
+  #020617 100%
+  );
+  
+  color:white;
+  }
+  body::before{
+
+    content:"";
+    
+    position:fixed;
+    
+    top:-300px;
+    
+    left:-300px;
+    
+    width:700px;
+    
+    height:700px;
+    
+    background:#06b6d4;
+    
+    opacity:.08;
+    
+    filter:blur(180px);
+    
+    pointer-events:none;
+    
+    z-index:-1;
+    
+    }
+    body::after{
+
+      content:"";
+      
+      position:fixed;
+      
+      bottom:-250px;
+      
+      right:-250px;
+      
+      width:600px;
+      
+      height:600px;
+      
+      background:#2563eb;
+      
+      opacity:.08;
+      
+      filter:blur(160px);
+      
+      pointer-events:none;
+      
+      z-index:-1;
+      
+      }
+html {
+  scroll-behavior: smooth;
 }
+
+main{
+
+  background-image:
+  
+  linear-gradient(
+  
+  rgba(255,255,255,.03) 1px,
+  
+  transparent 1px
+  
+  ),
+  
+  linear-gradient(
+  
+  90deg,
+  
+  rgba(255,255,255,.03) 1px,
+  
+  transparent 1px
+  
+  );
+  
+  background-size:40px 40px;
+  
+  }
